@@ -132,7 +132,7 @@ window.cardMeanings = [
     }
   },
   // ... diğer kartlar aynı şekilde devam edecek (İmparatoriçe, İmparator, Aşıklar, Güç, Ermiş) ...
-];
+
 // 3: İmparatoriçe / The Empress
 {
   tr: {
@@ -318,6 +318,7 @@ window.cardMeanings = [
     }
   }
 }
+];
 // Her kombinasyon için özgün aşk ve kariyer özetleri (TR & EN)
 window.comboSummaryTexts = {
   tr: {
