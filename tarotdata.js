@@ -1,7 +1,7 @@
 
 
 // 8 TAROT KARTI (azaltılmayacak!)
-const tarotCards = [
+window.tarotCards = [
   {name:{tr:"Aptal",en:"The Fool"},img:"https://i.pinimg.com/1200x/95/75/b2/9575b2acd29bf516d8a7cf02402bb54a.jpg",emoji:"🤹‍♂️"},
   {name:{tr:"Büyücü",en:"The Magician"},img:"https://i.pinimg.com/1200x/89/32/b8/8932b890833f0294c811e330687ae67b.jpg",emoji:"🪄"},
   {name:{tr:"Baş Rahibe",en:"The High Priestess"},img:"https://i.pinimg.com/1200x/c1/36/04/c13604c1cf56137b891380da1a9eea49.jpg",emoji:"🌙"},
@@ -13,13 +13,13 @@ const tarotCards = [
 ];
 
 // Burçlar ve yorumlar (gerektiğinde eklenir)
-const burclar = [
+window.burclar = [
   {ad:"Oğlak",bas:"01-01",bit:"01-20"},{ad:"Kova",bas:"01-21",bit:"02-19"},{ad:"Balık",bas:"02-20",bit:"03-20"},{ad:"Koç",bas:"03-21",bit:"04-20"},
   {ad:"Boğa",bas:"04-21",bit:"05-21"},{ad:"İkizler",bas:"05-22",bit:"06-21"},{ad:"Yengeç",bas:"06-22",bit:"07-22"},{ad:"Aslan",bas:"07-23",bit:"08-22"},
   {ad:"Başak",bas:"08-23",bit:"09-22"},{ad:"Terazi",bas:"09-23",bit:"10-22"},{ad:"Akrep",bas:"10-23",bit:"11-21"},{ad:"Yay",bas:"11-22",bit:"12-21"},{ad:"Oğlak",bas:"12-22",bit:"12-31"}
 ];
 // Her kart için geçmiş/şimdi/gelecek, aşk/kariyer/normal (TR & EN)
-const cardMeanings = [
+window.cardMeanings = [
   // 0: Aptal / The Fool
   {
     tr: {
@@ -319,7 +319,7 @@ const cardMeanings = [
   }
 }
 // Her kombinasyon için özgün aşk ve kariyer özetleri (TR & EN)
-const comboSummaryTexts = {
+window.comboSummaryTexts = {
   tr: {
     ask: {
       "0-1-2": "Geçmişte kalbini cesurca açtın ve yeni başlangıçlar yaşadın (Aptal). Şu anda büyülü bir çekim ve karşılıklı bir tutku içinde olabilirsin (Büyücü). Yakında ise ilişkinde hislerin ve sezgilerin çok güçlenecek; iç sesini dinlersen gerçek aşkı bulabilirsin (Baş Rahibe).",
