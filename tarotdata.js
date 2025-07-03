@@ -1,5 +1,3 @@
-
-
 // 8 TAROT KARTI (azaltılmayacak!)
 window.tarotCards = [
   {name:{tr:"Aptal",en:"The Fool"},img:"https://i.pinimg.com/1200x/95/75/b2/9575b2acd29bf516d8a7cf02402bb54a.jpg",emoji:"🤹‍♂️"},
@@ -12,13 +10,6 @@ window.tarotCards = [
   {name:{tr:"Ermiş",en:"The Hermit"},img:"https://i.pinimg.com/1200x/02/a7/79/02a779d8c755e082be57f38a9832d141.jpg",emoji:"🧘"}
 ];
 
-// Burçlar ve yorumlar (gerektiğinde eklenir)
-window.burclar = [
-  {ad:"Oğlak",bas:"01-01",bit:"01-20"},{ad:"Kova",bas:"01-21",bit:"02-19"},{ad:"Balık",bas:"02-20",bit:"03-20"},{ad:"Koç",bas:"03-21",bit:"04-20"},
-  {ad:"Boğa",bas:"04-21",bit:"05-21"},{ad:"İkizler",bas:"05-22",bit:"06-21"},{ad:"Yengeç",bas:"06-22",bit:"07-22"},{ad:"Aslan",bas:"07-23",bit:"08-22"},
-  {ad:"Başak",bas:"08-23",bit:"09-22"},{ad:"Terazi",bas:"09-23",bit:"10-22"},{ad:"Akrep",bas:"10-23",bit:"11-21"},{ad:"Yay",bas:"11-22",bit:"12-21"},{ad:"Oğlak",bas:"12-22",bit:"12-31"}
-];
-// Her kart için geçmiş/şimdi/gelecek, aşk/kariyer/normal (TR & EN)
 window.cardMeanings = [
   // 0: Aptal / The Fool
   {
@@ -41,19 +32,19 @@ window.cardMeanings = [
     },
     en: {
       normal: {
-        past: "In the past, you lived boldly, letting your inner child lead the way. Sometimes you acted without thinking, but those moments brought you invaluable experiences.",
-        present: "You’re open to new beginnings, winking at opportunities around you with your free spirit. Even when you take risks, your heart guides you to the right path.",
-        future: "Soon, unexpected developments will excite you. The future invites you to embark on a new adventure—have faith in your courage."
+        past: "In the past, you lived boldly without taking life too seriously, freely expressing your inner child. Sometimes you acted impulsively but gained invaluable experience.",
+        present: "Right now, you are open to new beginnings and opportunities around you. You sometimes take risks, but listening to your heart always guides you right.",
+        future: "Soon, exciting and unexpected developments will come. The future wants you to embark on a new adventure with confidence. Remember, your courage will carry you forward."
       },
       ask: {
-        past: "In love, you followed your heart over logic. Maybe you started naively and jumped in headfirst, but you learned what true love means.",
-        present: "A new chapter is opening in your love life; your enthusiasm makes you magnetic. You’re ready for flirts and fresh experiences.",
-        future: "Very soon, a surprising love may appear. You’re ready for an adventure—express your feelings fearlessly and happiness will follow."
+        past: "In your past love life, you listened more to your heart than logic. Perhaps you started naively and recklessly, but these experiences taught you true love.",
+        present: "A new chapter is opening in your love life; sometimes you can be impulsive, but your enthusiasm affects those around you. You are open to flirting and new experiences.",
+        future: "Very soon, a surprise love might appear. You are ready for an adventure; expressing your feelings fearlessly will bring you happiness."
       },
       kariyer: {
-        past: "You never hesitated to take risks in your career. New beginnings and unexpected opportunities shaped your past.",
-        present: "You’re open to innovations at work and willing to change. Your courage and open-mindedness give you a real edge.",
-        future: "A new fork in your career is emerging. An unexpected offer or project could transport you somewhere entirely new."
+        past: "In your career, you were not afraid to take risks. New beginnings and unexpected opportunities were defining factors in your past.",
+        present: "Currently, you are open to innovations and willing to change at work. Your courage and open-mindedness give you an advantage.",
+        future: "A new crossroads appears in your career. An unexpected offer or project may take you to a completely different place."
       }
     }
   },
@@ -61,36 +52,36 @@ window.cardMeanings = [
   {
     tr: {
       normal: {
-        past: "Geçmişte hayallerini gerçeğe dönüştürmek için zekânı ve yeteneklerini ustaca kullandın. Kendi gücünün farkına vardığın bir dönemdi.",
-        present: "Şu anda kelimelerin ve davranışlarınla çevrene güçlü bir etki bırakıyorsun. Hedeflerine ulaşmak için ihtiyacın olan her şey sende mevcut.",
-        future: "Yakında, aklındaki fikirleri gerçeğe dönüştürme fırsatı bulacaksın. Evren sana kendi gücünü kullanman için alan açıyor."
+        past: "Geçmişte yeteneklerini ve kaynaklarını aktif biçimde kullanmaya başlamışsın. Hayalini kurduğun bir şeyi hayata geçirmiş veya önemli bir girişimde bulunmuş olabilirsin.",
+        present: "Şu an, zihinsel gücünün ve konsantrasyonunun zirvesindesin. Fikirlerini gerçeğe dönüştürmek için mükemmel bir zaman. Elindeki imkanların farkına var!",
+        future: "İlerleyen dönemde istediğin her şeyi gerçekleştirebilme potansiyeline sahipsin. Hedeflerine ulaşmak için her şey sende mevcut; yeter ki niyet et ve harekete geç!"
       },
       ask: {
-        past: "Geçmişte ilişkilerinde manipülatif veya çekici yönünle karşı tarafı etkiledin. Aşka ulaşmak için aktif oldun.",
-        present: "Şu an partnerinle arandaki kimya çok güçlü. Etkileyici sözlerin ve çekiciliğinle yeni bir aşka yelken açabilirsin.",
-        future: "Yakında aşk hayatında kendi iradenle bir şeyleri değiştirecek ve istediğini elde edeceksin. Flörtte üstünlük sende olacak."
+        past: "Aşk hayatında zekanı ve yaratıcılığını kullandığın, partnerinle güçlü bir bağ kurduğun dönemler olmuş.",
+        present: "Şu anda aşk hayatında tutkulu ve etkileyicisin. Yeni fırsatlar kapıda, hayallerini gerçekleştirebilirsin.",
+        future: "Gelecekte sevgi ve tutkuyla dolu yeni bir döneme giriyorsun. Hislerini cesurca ifade et ve aşkını büyüt."
       },
       kariyer: {
-        past: "İş hayatında fırsatları iyi değerlendirdin. Yeteneklerinle bir adım öne çıktın.",
-        present: "Şu anda işinde tüm dikkatleri üzerine çekiyorsun. Zekân ve iletişiminle başarı kaçınılmaz.",
-        future: "Yakında yeni bir projeye liderlik edebilirsin. Girişimlerin başarıya ulaşacak ve çevreni etkileyeceksin."
+        past: "Kariyerinde önemli projeleri hayata geçirirken yeteneklerini etkin kullandın.",
+        present: "Şu anda işinde yaratıcı çözümler ve güçlü iletişimle fark yaratıyorsun.",
+        future: "Yakında kariyerinde beklenmedik başarılar ve fırsatlar seni bekliyor."
       }
     },
     en: {
       normal: {
-        past: "In the past, you skillfully used your intelligence and talents to turn dreams into reality. It was a time of realizing your own power.",
-        present: "Right now, your words and actions have a powerful influence on those around you. You possess everything you need to reach your goals.",
-        future: "Soon, you’ll have the opportunity to bring your ideas to life. The universe is giving you space to use your full power."
+        past: "In the past, you started actively using your talents and resources. You may have realized a dream or undertaken an important initiative.",
+        present: "You are at the peak of your mental strength and concentration. It's a perfect time to turn your ideas into reality. Be aware of what you have in hand!",
+        future: "In the coming period, you have the potential to achieve anything you want. Everything you need to reach your goals is within you; just set your intention and take action!"
       },
       ask: {
-        past: "In past relationships, your charisma or even manipulative side often influenced others. You actively pursued love.",
-        present: "There’s strong chemistry with your partner now. Your charm and words can open the door to new romance.",
-        future: "Soon, you’ll change something in your love life through your own willpower, getting what you want. You’ll have the upper hand in flirting."
+        past: "In love, you used your intelligence and creativity to build a strong bond with your partner.",
+        present: "Currently, you are passionate and charismatic in your love life. New opportunities are near; you can realize your dreams.",
+        future: "In the future, you enter a new period full of love and passion. Express your feelings courageously and grow your love."
       },
       kariyer: {
-        past: "In your career, you seized opportunities. Your skills set you ahead.",
-        present: "Currently, you draw all eyes at work. With your intelligence and communication, success is inevitable.",
-        future: "You may soon lead a new project. Your ventures will succeed and influence those around you."
+        past: "You actively used your talents to bring important projects to life in your career.",
+        present: "Right now, you make a difference with creative solutions and strong communication at work.",
+        future: "Soon, unexpected successes and opportunities await you in your career."
       }
     }
   },
@@ -98,228 +89,229 @@ window.cardMeanings = [
   {
     tr: {
       normal: {
-        past: "Geçmişte bilinçaltın ve sezgilerin sana sık sık yol gösterdi. O dönem sırlar, gizemler ve içsel keşiflerle doluydu.",
-        present: "Şu anda olayların perde arkasını görüyorsun. Duyguların ve sezgilerin güçlü; kalbinin fısıltılarına kulak veriyorsun.",
-        future: "Yakında hayatında perde arkasında kalan bir gerçek açığa çıkacak. Sezgilerinle hareket ettiğinde doğru yolu bulacaksın."
+        past: "Sezgilerinle hareket ettiğin, bilinmeyenlerin peşinden gittiğin bir dönem yaşamışsın. Derin bir içsel sorgulama ve manevi gelişim öne çıkıyor.",
+        present: "Şu an bilinçaltın ve sezgilerin çok güçlü. Kararlarında sadece mantığı değil, iç sesini de mutlaka dinle. Biraz yalnız kalmak sana iyi gelir.",
+        future: "Yakın gelecekte içsel bilgeliğinle önemli sırları açığa çıkaracaksın. Sezgilerini takip edersen, beklenmedik fırsatlar önüne serilecek."
       },
       ask: {
-        past: "Aşk hayatında duygularını saklamış veya derinden yaşamış olabilirsin. Kalbinin gizli köşelerinde önemli duygular var.",
-        present: "Şu an hislerin çok güçlü. Partnerinle aranda söylenmeyen ama hissedilen bir bağ var.",
-        future: "Yakında aşk hayatında bir sır veya saklı bir his gün yüzüne çıkacak. Sezgilerine güven, seni doğru aşka götürecek."
+        past: "Aşk hayatında hislerini gizlediğin ya da derin yaşadığın zamanlar olmuş. Kalbinin sır köşelerinde önemli duygular var.",
+        present: "Şu an duyguların çok yoğun. Partnerinle aranda söylenemeyen ama derinden hissedilen bir bağ var.",
+        future: "Aşk hayatında gizli bir duygu ya da sır yakında ortaya çıkacak. Sezgilerine güven, seni doğru aşka götürecek."
       },
       kariyer: {
-        past: "İş hayatında sezgilerine güvenip önemli kararlar aldın. Bazen perde arkasındaki oyunları fark ettin.",
-        present: "Şu anda iş ortamında herkesin göremediği detayları fark ediyorsun.",
-        future: "Yakında kariyerinde saklı bir fırsat ortaya çıkacak. Sakin kalıp, iç sesini dinlersen başarılı olacaksın."
+        past: "İş hayatında sezgilerine güvenerek önemli kararlar verdin. Bazen perde arkasındaki oyunları fark ettin.",
+        present: "Şu an iş yerinde başkalarının fark edemediği detayları görüyorsun.",
+        future: "Kariyerinde yakında gizli bir fırsat doğacak. Başarı için iç sesini dinle."
       }
     },
     en: {
       normal: {
-        past: "In the past, your subconscious and intuition guided you often. That time was full of mysteries and inner discoveries.",
-        present: "You’re seeing behind the scenes now. Your feelings and intuition are strong—listen to your heart’s whispers.",
-        future: "Soon, a truth hidden behind the curtain will be revealed. By following your instincts, you’ll find the right path."
+        past: "In the past, you acted on your intuition and chased the unknown. Deep inner questioning and spiritual development were prominent.",
+        present: "Your subconscious and intuition are very strong right now. Listen to your inner voice as well as your logic in your decisions. Being alone for a while may do you good.",
+        future: "Soon, you will reveal important secrets with your inner wisdom. If you follow your intuition, unexpected opportunities will appear."
       },
       ask: {
-        past: "In love, you may have kept your feelings hidden or experienced them deeply. There are important emotions in your heart’s secret corners.",
-        present: "Your feelings are very strong now. There’s an unspoken but deeply felt connection with your partner.",
-        future: "A secret or hidden feeling will soon come to light in your love life. Trust your intuition—it’ll lead you to the right love."
+        past: "In love, you may have kept your feelings hidden or experienced them deeply. Important emotions lie in your heart's secret corners.",
+        present: "Your feelings are intense now. There is an unspoken but deeply felt connection with your partner.",
+        future: "A secret or hidden feeling will soon come to light in your love life. Trust your intuition—it will lead you to the right love."
       },
       kariyer: {
-        past: "In work, you made key decisions by trusting your intuition. Sometimes you noticed the behind-the-scenes games.",
-        present: "Now, you’re seeing the details others may miss at work.",
+        past: "In work, you made key decisions by trusting your intuition. Sometimes you noticed behind-the-scenes plays.",
+        present: "Now, you see details others might miss at work.",
         future: "A hidden opportunity will soon arise in your career. Stay calm and listen to your inner voice for success."
       }
     }
   },
-  // ... diğer kartlar aynı şekilde devam edecek (İmparatoriçe, İmparator, Aşıklar, Güç, Ermiş) ...
-
-// 3: İmparatoriçe / The Empress
-{
-  tr: {
-    normal: {
-      past: "Geçmişte sevgi dolu, besleyici bir ortamın parçası oldun. Yaratıcılığın ve üretkenliğin ön plandaydı; sevdiklerinle güçlü bağlar kurdun.",
-      present: "Şu anda hayatında huzur ve bolluk hakim. Etrafına sıcaklık ve şefkat saçıyor, çevrendekileri destekliyorsun.",
-      future: "Yakında bereketli ve verimli bir döneme giriyorsun. Hayatında yeni projeler, ilişkiler ya da ailevi mutluluklar gündeme gelebilir."
+  // 3: İmparatoriçe / The Empress
+  {
+    tr: {
+      normal: {
+        past: "Geçmişte sevgi dolu, besleyici bir ortamın parçası oldun. Yaratıcılığın ve üretkenliğin ön plandaydı; sevdiklerinle güçlü bağlar kurdun.",
+        present: "Şu anda hayatında huzur ve bolluk hakim. Etrafına sıcaklık ve şefkat saçıyor, çevrendekileri destekliyorsun.",
+        future: "Yakında bereketli ve verimli bir döneme giriyorsun. Hayatında yeni projeler, ilişkiler ya da ailevi mutluluklar gündeme gelebilir."
+      },
+      ask: {
+        past: "Geçmişte aşk hayatında sevgi dolu bir yaklaşım sergiledin. Koruyucu, anaç ve anlayışlı bir partnerdin.",
+        present: "Şu anda ilişkindeki şefkat ve empati öne çıkıyor. Karşılıklı destek ve ilgi ile aşkın büyüyor.",
+        future: "Aşk hayatında yakında büyük bir tatmin ve huzur yaşayacaksın. Belki yeni bir aşka ya da mevcut ilişkide bir adım öteye geçiş var."
+      },
+      kariyer: {
+        past: "Kariyerinde yaratıcı projeler, ekip çalışması ve verimlilik öne çıktı.",
+        present: "Şu anda işinde üretkenliğin zirvesindesin. Fikirlerin ve desteğinle çevrene ilham veriyorsun.",
+        future: "Yakında işinde büyük bir başarıya, berekete ve rahatlığa kavuşacaksın. Projelerin meyvesini verecek."
+      }
     },
-    ask: {
-      past: "Geçmişte aşk hayatında sevgi dolu bir yaklaşım sergiledin. Koruyucu, anaç ve anlayışlı bir partnerdin.",
-      present: "Şu anda ilişkindeki şefkat ve empati öne çıkıyor. Karşılıklı destek ve ilgi ile aşkın büyüyor.",
-      future: "Aşk hayatında yakında büyük bir tatmin ve huzur yaşayacaksın. Belki yeni bir aşka ya da mevcut ilişkide bir adım öteye geçiş var."
-    },
-    kariyer: {
-      past: "Kariyerinde yaratıcı projeler, ekip çalışması ve verimlilik öne çıktı.",
-      present: "Şu anda işinde üretkenliğin zirvesindesin. Fikirlerin ve desteğinle çevrene ilham veriyorsun.",
-      future: "Yakında işinde büyük bir başarıya, berekete ve rahatlığa kavuşacaksın. Projelerin meyvesini verecek."
-    }
-  },
-  en: {
-    normal: {
-      past: "In the past, you were part of a loving, nurturing environment. Your creativity and productivity stood out; you built strong bonds with loved ones.",
-      present: "Currently, there is peace and abundance in your life. You spread warmth and support those around you.",
-      future: "Soon, you will enter a fruitful and abundant period. New projects, relationships, or family joys may be on the horizon."
-    },
-    ask: {
-      past: "In love, you showed a caring and nurturing side. You were a protective and understanding partner.",
-      present: "Now, compassion and empathy are at the forefront of your relationship. Your love grows with mutual support.",
-      future: "You will soon experience deep satisfaction and peace in your love life. This could be a new love or taking your current relationship to the next level."
-    },
-    kariyer: {
-      past: "Creativity, teamwork, and productivity were key in your career.",
-      present: "Right now, you are at your most productive at work. Your ideas and support inspire others.",
-      future: "Soon, you’ll enjoy great success and abundance at work. Your projects will bear fruit."
-    }
-  }
-},
-// 4: İmparator / The Emperor
-{
-  tr: {
-    normal: {
-      past: "Geçmişte kararlı, disiplinli ve otoriter bir dönem geçirdin. Kurallar ve düzen senin için önemliydi.",
-      present: "Şu anda hayatında sağlam temeller kurmaya çalışıyor, sorumluluklarını ön plana alıyorsun.",
-      future: "Yakında liderlik yapacağın bir süreç geliyor. Güçlü ve kararlı adımların hayatına yön verecek."
-    },
-    ask: {
-      past: "Aşk hayatında sağlam ve ciddi ilişkiler senin için önemliydi. Kontrolü elde tutmaya çalıştın.",
-      present: "Şu anda ilişkinde istikrar ve güven arıyorsun. Duyguların kadar mantığın da ön planda.",
-      future: "Yakında ilişkinde uzun vadeli bir adım veya ciddi bir karar gündeme gelebilir. Kalıcı birliktelik mümkün."
-    },
-    kariyer: {
-      past: "Kariyerinde düzen, disiplin ve liderlik ön plandaydı.",
-      present: "Şu an işinde sorumluluk sahibisin, yönetici vasfın öne çıkıyor.",
-      future: "Yakında işte yükseliş, terfi veya kendi işinin başına geçme şansı var. Gücünle fark yaratacaksın."
-    }
-  },
-  en: {
-    normal: {
-      past: "In the past, you were determined, disciplined, and authoritative. Rules and order mattered to you.",
-      present: "Now, you are focused on building strong foundations and taking responsibility.",
-      future: "Soon, you will enter a phase of leadership. Your strong and steady steps will shape your life."
-    },
-    ask: {
-      past: "In love, solid and serious relationships were important to you. You tried to stay in control.",
-      present: "Now, you seek stability and security in your relationship. Your mind is as important as your heart.",
-      future: "A serious step or long-term decision may soon arise in your relationship. Long-lasting commitment is possible."
-    },
-    kariyer: {
-      past: "Order, discipline, and leadership stood out in your career.",
-      present: "You are now responsible at work, and your managerial skills are evident.",
-      future: "A promotion, leadership role, or running your own business is possible soon. You’ll stand out with your power."
+    en: {
+      normal: {
+        past: "In the past, you were part of a loving, nurturing environment. Creativity and productivity were at the forefront; you built strong bonds with loved ones.",
+        present: "Currently, peace and abundance prevail in your life. You radiate warmth and compassion, supporting those around you.",
+        future: "Soon, you will enter a fruitful and prosperous period. New projects, relationships, or family happiness may come into your life."
+      },
+      ask: {
+        past: "In love, you showed a nurturing and understanding approach. You were a protective and caring partner.",
+        present: "Currently, compassion and empathy stand out in your relationship. Mutual support and affection help your love grow.",
+        future: "Soon, you will experience great satisfaction and peace in your love life. Perhaps a new love or a step forward in your current relationship."
+      },
+      kariyer: {
+        past: "In your career, creative projects, teamwork, and productivity came to the forefront.",
+        present: "Right now, you are at the peak of your productivity at work. Your ideas and support inspire those around you.",
+        future: "Soon, you will achieve great success, prosperity, and comfort at work. Your projects will bear fruit."
+      }
     }
   }
-},
-// 5: Aşıklar / The Lovers
-{
-  tr: {
-    normal: {
-      past: "Geçmişte önemli seçimlerle karşılaştın. Kalbin ve aklın arasında kaldığın bir dönemdi.",
-      present: "Şu an duyguların ön planda. İlişkilerinde uyum ve birliktelik arıyorsun.",
-      future: "Yakında bir karar vermen gerekecek. Doğruyu seçmek için kalbini dinle."
-    },
-    ask: {
-      past: "Aşk hayatında iki kişi arasında kalmış veya duygusal bir yol ayrımı yaşamış olabilirsin.",
-      present: "Şu an aşkta uyum, karşılıklı sevgi ve tutku hâkim.",
-      future: "Çok yakında önemli bir aşk kararı seni bekliyor. Gerçek aşkın ne olduğunu keşfedeceksin."
-    },
-    kariyer: {
-      past: "Kariyerinde seçimler ve ortaklıklar ön plandaydı.",
-      present: "İş hayatında takım çalışması ve uyum senin için önemli.",
-      future: "Yakında yeni bir işbirliği ya da ortaklık fırsatı doğabilir. Doğru kişiyi seçmek başarı getirecek."
-    }
-  },
-  en: {
-    normal: {
-      past: "In the past, you faced important choices. It was a time when you were torn between your heart and your mind.",
-      present: "Now, your emotions take the lead. You seek harmony and unity in your relationships.",
-      future: "You’ll soon have to make a decision. Listen to your heart to choose rightly."
-    },
-    ask: {
-      past: "In love, you may have been torn between two people or experienced a romantic crossroads.",
-      present: "Now, love is about harmony, mutual affection, and passion.",
-      future: "A major love decision awaits you soon. You will discover what true love means."
-    },
-    kariyer: {
-      past: "Choices and partnerships were prominent in your career.",
-      present: "Teamwork and harmony matter most to you at work.",
-      future: "A new collaboration or partnership opportunity may soon arise. Choosing the right person will bring success."
-    }
-  }
-},
-// 6: Güç / Strength
-{
-  tr: {
-    normal: {
-      past: "Geçmişte büyük zorlukların üstesinden geldin. İçindeki güç ve sabır, engelleri aşmanı sağladı.",
-      present: "Şu an iraden ve inancın çok güçlü. Zorluklar karşısında sarsılmıyorsun.",
-      future: "Yakında hayatına güç ve cesaret gerektiren yeni bir sınav çıkacak. Kendine güven; başaracaksın."
-    },
-    ask: {
-      past: "Aşk hayatında sorunlar olsa da, sabrın ve şefkatinle bunları aştın.",
-      present: "Şu an ilişkinde fedakarlık, güven ve duygusal dayanıklılık ön planda.",
-      future: "Yakında ilişkinin güçlenmesini sağlayacak bir sınavdan geçeceksin. Sevginle her şeyi aşacaksın."
-    },
-    kariyer: {
-      past: "Kariyerinde zorluklar yaşadın ama direncin sayesinde yılmadın.",
-      present: "İşinde kararlı ve azimlisin; her engelin üstesinden geliyorsun.",
-      future: "Yakında iş hayatında büyük bir mücadele seni bekliyor, ama iradenle zafer senin olacak."
-    }
-  },
-  en: {
-    normal: {
-      past: "In the past, you overcame great difficulties. Your inner strength and patience helped you get through.",
-      present: "Now, your will and faith are strong. You don’t shake in the face of challenges.",
-      future: "A test requiring strength and courage is coming. Trust yourself—you’ll succeed."
-    },
-    ask: {
-      past: "Even if there were issues in love, you overcame them with patience and compassion.",
-      present: "Sacrifice, trust, and emotional resilience are central in your relationship now.",
-      future: "Soon, your relationship will be tested, but your love will help you overcome anything."
-    },
-    kariyer: {
-      past: "You faced hardships in your career but persisted thanks to your resilience.",
-      present: "You’re determined and persistent at work; you overcome every challenge.",
-      future: "A big struggle awaits you at work, but with your willpower, victory is yours."
-    }
-  }
-},
-// 7: Ermiş / The Hermit
-{
-  tr: {
-    normal: {
-      past: "Geçmişte yalnız kalmayı seçtin veya zorunda kaldın. Kendi iç dünyanı keşfetmek, sana önemli farkındalıklar kazandırdı.",
-      present: "Şu an içsel bir yolculuktasın; sessizliğin ve yalnızlığın sana güç veriyor.",
-      future: "Yakında inzivaya çekilme veya daha çok kendine dönme ihtiyacı hissedeceksin. Bu süreçte önemli bir bilgelik kazanacaksın."
-    },
-    ask: {
-      past: "Aşk hayatında bir süre yalnız kalmayı tercih ettin. Kendini ve duygularını daha iyi tanıdın.",
-      present: "Şu anda aşk konusunda içe dönük bir dönemdesin. Kendini dinlemeye ve duygularını çözmeye ihtiyacın var.",
-      future: "Yakında aşka dair önemli bir içsel aydınlanma yaşayacaksın. Yalnızlık sana yeni bir perspektif katacak."
-    },
-    kariyer: {
-      past: "Kariyerinde bir süre kendi başına çalıştın veya yalnız kaldın. Bu dönem kişisel gelişimini hızlandırdı.",
-      present: "Şu anda kendi fikirlerinle ilerlemek istiyorsun. Yalnız çalışmak sana huzur veriyor.",
-      future: "Yakında işte yalnız başına önemli bir sorumluluk üstleneceksin. Bu süreç sana büyük bir deneyim kazandıracak."
-    }
-  },
-  en: {
-    normal: {
-      past: "In the past, you chose or were forced to be alone. Exploring your inner world brought you major insights.",
-      present: "Now, you are on an inner journey; silence and solitude empower you.",
-      future: "You’ll soon feel the need for solitude or more self-reflection. You’ll gain wisdom through this process."
-    },
-    ask: {
-      past: "You chose to be alone for a while in love. You came to know yourself and your feelings better.",
-      present: "Right now, you’re in an introspective phase in love. You need to listen to yourself and work through your feelings.",
-      future: "Soon, you’ll have an important inner awakening about love. Solitude will give you a new perspective."
-    },
-    kariyer: {
-      past: "You worked alone or in solitude for a time in your career. This period accelerated your personal development.",
-      present: "You now want to advance with your own ideas. Working alone gives you peace.",
-      future: "Soon, you’ll take on a major responsibility alone at work. This will give you valuable experience."
-    }
-  }
-}
-
 ];
+// 4: İmparator / The Emperor
+window.cardMeanings.push({
+  tr: {
+    normal: {
+      past: "Düzen, disiplin ve otoriteyle şekillenen bir geçmişin var. Hayatını yapılandırmak için güçlü adımlar attın.",
+      present: "Kararlı ve sağlam bir döneme girdin. Sorumluluklarını üstlenmekten çekinmiyorsun ve liderlik özelliklerin ortaya çıkıyor.",
+      future: "Kendi hayatının lideri olacaksın. Kontrolü ele aldığında hedeflerine ulaşacaksın ve otoriten artacak."
+    },
+    ask: {
+      past: "Aşk hayatında güçlü ve kararlı bir rol üstlendin. İlişkinde güven ve düzen önemliydi.",
+      present: "Şu anda ilişkindeki denge ve sorumluluklar ön planda. Partnerinle birlikte sağlam bir temel kuruyorsunuz.",
+      future: "Gelecekte aşk hayatında güven ve bağlılık artacak. İlişkin daha sağlam ve kalıcı olacak."
+    },
+    kariyer: {
+      past: "Geçmişte iş hayatında disiplin ve yapı öne çıktı. Yöneticilik veya liderlik pozisyonları deneyimledin.",
+      present: "Şu anda işinde güçlü bir pozisyona sahipsin. Sorumluluklarını başarıyla yerine getiriyorsun.",
+      future: "Kariyerinde yükseliş ve otorite artışı bekleniyor. Başarıların devam edecek."
+    }
+  },
+  en: {
+    normal: {
+      past: "Your past was shaped by order, discipline, and authority. You took strong steps to structure your life.",
+      present: "You have entered a determined and solid period. You do not hesitate to take on responsibilities and your leadership qualities are emerging.",
+      future: "You will become the leader of your own life. When you take control, you will achieve your goals and your authority will increase."
+    },
+    ask: {
+      past: "You played a strong and determined role in your love life. Security and order were important in your relationship.",
+      present: "Balance and responsibilities are at the forefront of your relationship now. You and your partner are building a solid foundation.",
+      future: "In the future, security and commitment in your love life will increase. Your relationship will become stronger and more lasting."
+    },
+    kariyer: {
+      past: "Discipline and structure were prominent in your past work life. You experienced managerial or leadership roles.",
+      present: "You currently hold a strong position at work. You fulfill your responsibilities successfully.",
+      future: "An increase in career advancement and authority is expected. Your successes will continue."
+    }
+  }
+});
+
+// 5: Aşıklar / The Lovers
+window.cardMeanings.push({
+  tr: {
+    normal: {
+      past: "Kalbinle önemli seçimler yaptığın, aşk hayatında dönüm noktaları yaşadığın bir geçmişin var.",
+      present: "İlişkiler ve dostluklar şu anda ön planda. Kalbini dinleyerek doğru seçimler yapıyorsun.",
+      future: "Yakında aşk hayatında yeni fırsatlar ve derinleşen bağlar olacak. Seçimlerin mutluluk getirecek."
+    },
+    ask: {
+      past: "Geçmişte romantik ilişkilerde büyük kararlar verdin. Aşk seni derinden etkiledi.",
+      present: "Şu anda duygusal bağların güçleniyor. Yeni başlangıçlar mümkün.",
+      future: "Gelecekte kalbini açacağın yeni bir aşk kapını çalabilir. Duygularını cesurca göster."
+    },
+    kariyer: {
+      past: "Geçmişte iş ortaklıkları ve ilişkiler önemliydi. Kararlarında duyguların etkili oldu.",
+      present: "Şu anda iş birliği ve ekip çalışması ön planda. Ortaklıklar büyüyor.",
+      future: "Kariyerinde yeni ortaklıklar ve fırsatlar seni bekliyor."
+    }
+  },
+  en: {
+    normal: {
+      past: "You have a past filled with important choices and turning points in your love life.",
+      present: "Relationships and friendships are at the forefront now. You make right choices by listening to your heart.",
+      future: "Soon, new opportunities and deepening bonds will come in your love life. Your choices will bring happiness."
+    },
+    ask: {
+      past: "In the past, you made big decisions in romantic relationships. Love deeply affected you.",
+      present: "Your emotional bonds are strengthening now. New beginnings are possible.",
+      future: "In the future, a new love may knock on your door. Show your feelings bravely."
+    },
+    kariyer: {
+      past: "In the past, business partnerships and relationships were important. Your emotions influenced your decisions.",
+      present: "Currently, collaboration and teamwork are prominent. Partnerships are growing.",
+      future: "New partnerships and opportunities await you in your career."
+    }
+  }
+});
+
+// 6: Güç / Strength
+window.cardMeanings.push({
+  tr: {
+    normal: {
+      past: "Zorluklar karşısında sabırlı ve dirençli oldun. İçsel gücünü ortaya koyarak her engeli aştın.",
+      present: "Kendine güvenin ve sabrın en büyük güçlerin. Zorluklarla başa çıkmaya devam ediyorsun.",
+      future: "Yakında cesaretinle büyük bir başarı elde edeceksin. Gücünle engelleri aşacaksın."
+    },
+    ask: {
+      past: "Geçmişte aşk hayatında sabır ve anlayış gösterdin. Duygusal dayanıklılığın dikkat çekici.",
+      present: "Şu anda duygusal olarak güçlü ve kararlısın. Zorluklar seni yıldırmıyor.",
+      future: "Gelecekte cesaretinle aşk hayatında yeni bir döneme gireceksin."
+    },
+    kariyer: {
+      past: "İş hayatında dayanıklılık ve azimle ilerledin. Zorlu görevleri başardın.",
+      present: "Şu anda işindeki gücün ve kararlılığın fark ediliyor.",
+      future: "Kariyerinde önemli başarılar ve ilerlemeler olacak."
+    }
+  },
+  en: {
+    normal: {
+      past: "You were patient and resilient in the face of difficulties. You demonstrated your inner strength and overcame every obstacle.",
+      present: "Your self-confidence and patience are your greatest strengths. You continue to handle challenges.",
+      future: "Soon, you will achieve great success with your courage. You will overcome obstacles with your strength."
+    },
+    ask: {
+      past: "In the past, you showed patience and understanding in your love life. Your emotional resilience was remarkable.",
+      present: "You are emotionally strong and determined right now. Challenges do not discourage you.",
+      future: "In the future, your courage will usher in a new phase in your love life."
+    },
+    kariyer: {
+      past: "You advanced in your career with resilience and determination. You completed difficult tasks successfully.",
+      present: "Your strength and determination at work are currently being recognized.",
+      future: "Important successes and advancements will happen in your career."
+    }
+  }
+});
+
+// 7: Ermiş / The Hermit
+window.cardMeanings.push({
+  tr: {
+    normal: {
+      past: "İçsel yolculuk ve bilgelik arayışı geçmişinde önemliydi. Yalnız kalmayı tercih ettin.",
+      present: "Şu an içe dönük ve hayatının anlamını sorguluyorsun. Ruhunu dinliyorsun.",
+      future: "Yakında derin bir aydınlanma yaşayacak, doğru yolu bulacaksın."
+    },
+    ask: {
+      past: "Geçmişte aşk hayatında yalnızlık ve içsel keşifler yaşadın. Duygusal derinlik seninleydi.",
+      present: "Şu anda duygusal olarak yalnız ve sorgulayıcı bir dönemdensin.",
+      future: "Gelecekte içsel aydınlanma ve huzur bulacaksın."
+    },
+    kariyer: {
+      past: "İş hayatında yalnız çalışmayı tercih ettin ve bilgelik peşinde koştun.",
+      present: "Şu anda işinde içe dönük, sakin ve sorgulayıcısın.",
+      future: "Yakında kariyerinde yeni farkındalıklar ve aydınlanmalar olacak."
+    }
+  },
+  en: {
+    normal: {
+      past: "Inner journey and the quest for wisdom were important in your past. You preferred solitude.",
+      present: "You are introspective and questioning the meaning of your life now. You listen to your soul.",
+      future: "Soon, you will experience deep enlightenment and find the right path."
+    },
+    ask: {
+      past: "In the past, you experienced loneliness and inner discoveries in your love life. Emotional depth accompanied you.",
+      present: "You are currently in an emotionally solitary and questioning phase.",
+      future: "You will find inner enlightenment and peace in the future."
+    },
+    kariyer: {
+      past: "You preferred to work alone and pursued wisdom in your career.",
+      present: "Currently, you are introspective, calm, and questioning at work.",
+      future: "Soon, new insights and enlightenment will come in your career."
+    }
+  }
+});
+
 // Her kombinasyon için özgün aşk ve kariyer özetleri (TR & EN)
 window.comboSummaryTexts = {
   tr: {
