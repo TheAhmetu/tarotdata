@@ -2229,17 +2229,17 @@ Object.assign(window.comboSummaryTexts.en.kariyer, {
   "7-3-6": "Solitude and peace were present in your professional past (The Hermit). Now, you are in a sharing and peaceful process (The Empress). Soon, you’ll gain strength by overcoming all obstacles (Strength).",
   // ...
 });
-Object.assign(window.cardMeanings.tr.gecmis, {
+Object.assign(window.cardMeanings.tr.past, {
   "0": "Geçmiş aşk hayatında cesaretin ve özgürlüğün öne çıkmış olabilir. Hiçbir şeyi kafana takmadan, içindeki çocuğu dinleyerek ilişkilerine adım attın. Eski hataların, yeni heyecanların ve yaşadığın sürprizler aşk yolculuğunun en belirgin izleriydi. Bu dönemde iç sesini dinlemiş, bazen plansızca ama saf bir inançla kalbini açmışsın. Şimdiye kadar öğrendiğin en büyük ders, risk almanın bazen aşkı gerçek anlamda deneyimlemenin yolu olduğu.",
   "kariyer": "Kariyer yolculuğunda geçmişte yeniliklere açık oldun. Klişeleri yıktın, başkalarının denemediği yolları seçtin. Cesaretin ve maceracı ruhun seni zaman zaman belirsizliğe sürüklese de, kendi tarzını yaratmana yardımcı oldu. Geçmiş işlerinde korkusuzca adımlar atarak özgüven kazandın.",
   "normal": "Hayatının geçmişinde ani başlangıçlar, sürpriz kararlar ve beklenmedik değişimler vardı. Aptal kartı, bu dönemde yaşamı fazla sorgulamadan akışına bıraktığını ve spontane hareket ettiğini gösteriyor. Bu süreç, sana hayatı hafife almanın, anda kalmanın değerini öğretmiş olabilir.",
 });
-Object.assign(window.cardMeanings.tr.simdi, {
+Object.assign(window.cardMeanings.tr.present, {
   "0": "Şu anda aşk hayatında yeni bir sayfa açıyorsun! Cesur, korkusuz ve özgür bir ruhla hareket ediyorsun. Kalbinin sesini dinliyor, kurallar yerine duygularına öncelik veriyorsun. Her an yeni bir maceraya atılmaya hazırsın. Şu anda romantik ilişkilerde 'anı yaşa' felsefesini benimsemiş olabilirsin.",
   "kariyer": "Kariyerinde yeni bir dönem başladı. Risk almaktan çekinmiyorsun. Yaratıcılığın yüksek, özgür ve yenilikçi fikirlere açıksın. Şu anda alışılmışın dışında bir yol izliyor, kariyerinde taze bir başlangıç yapıyorsun.",
   "normal": "Hayatında yeni bir başlangıç eşiğindesin. Hiçbir engeli büyütmeden, kendine güvenle ilerliyorsun. Aptal kartı şu anki dönemde sana hafiflik, özgürlük ve umut getiriyor. Her şeyin mümkün olduğuna inandığın, pozitif bir ruh halindesin.",
 });
-Object.assign(window.cardMeanings.tr.gelecek, {
+Object.assign(window.cardMeanings.tr.future, {
   "0": "Aşk yolculuğunda çok yakında yeni bir macera kapıda! Tüm korkularını bırakıp, kalbini tamamen açacağın biriyle karşılaşabilirsin. Ön yargısız, sıfırdan başlayan, çok heyecanlı bir aşk seni bekliyor. Gelecekte Aptal kartı; aşkı tamamen yeni bir gözle deneyimleyeceğini ve hayatına taptaze bir enerji geleceğini müjdeliyor.",
   "kariyer": "Yakında kariyerinde sana tamamen yeni bir yol açılacak. Farklı projelere, iş değişikliklerine veya cesur girişimlere hazır ol. Gelecek, seni klasik düzenin dışına çıkaracak, yeni keşifler yapmaya itecek. Risk almaktan çekinmezsen çok şey kazanabilirsin.",
   "normal": "Önünde keşfedilmemiş fırsatlar, heyecanlı başlangıçlar var. Yakın gelecekte Aptal kartı, hayatına beklenmedik sürprizler ve umut dolu yeni deneyimler getirecek. Korkusuzca adım atarsan ödülü büyük olacak.",
@@ -2260,17 +2260,17 @@ Object.assign(window.cardMeanings.en.future, {
   "career": "Soon, a brand new career path will open for you. Be ready for different projects, changes, or bold initiatives. The future will push you to explore beyond the ordinary. If you’re brave, you’ll gain much.",
   "normal": "Ahead are unexplored opportunities and exciting beginnings. The Fool will bring unexpected surprises and hopeful new experiences to your life in the near future. Step forward without fear—the reward will be great.",
 });
-Object.assign(window.cardMeanings.tr.gecmis, {
+Object.assign(window.cardMeanings.tr.past, {
   "1": "Geçmiş aşk hayatında çekim gücün ve iletişimin ön plandaydı. Karşındakiler üzerinde büyüleyici bir etki yaratmış, ilişkilerini tutkulu bir şekilde yönetmiş olabilirsin. Bazen fazla iddialı veya manipülatif davrandığın dönemler de olmuş olabilir. Büyücü kartı, geçmişte aşkı ellerinle şekillendirmeye çalıştığını gösteriyor.",
   "kariyer": "Kariyerinde geçmişte büyük fırsatlar ve yaratıcı projelerle karşılaştın. İşini zekan ve pratikliğinle ileri taşıdın. Büyücü, iş ortamında başkalarını ikna edebilen, yeteneklerini sergileyen biri olduğunu işaret eder. Geçmişte başarıya ulaşmak için elindeki tüm araçları kullanmışsın.",
   "normal": "Geçmişte hayatında olaylara yön veren, çözümleri elinde toplayan biriydin. Zorluklara karşı pratik yaklaşımlar sergiledin, çevren üzerinde etki kurmayı başardın. Büyücü kartı, geçmişte başarma azminin ve özgüveninin yüksek olduğunu vurgular.",
 });
-Object.assign(window.cardMeanings.tr.simdi, {
+Object.assign(window.cardMeanings.tr.present, {
   "1": "Şu anda aşk hayatında büyüleyici bir enerji taşıyorsun. Karşı tarafı etkileyebilecek, ilişkide iletişimi güçlendirecek bir döneme girdin. Şu an flörtlerde ya da ilişkinde sözlerin, davranışların ve enerjinle dikkat çekiyorsun. Her türlü duyguyu ustaca ifade ediyorsun.",
   "kariyer": "Kariyerinde şu anda yeteneklerinle fark yaratacağın bir dönemdesin. Her şeyi kontrol edebilecek güçte ve motivasyondasın. Proje veya iş başvurularında özgüvenin yüksek, fırsatları iyi değerlendirebilirsin.",
   "normal": "Hayatının bu döneminde elin kolun çok becerikli, sorunlara kolayca çözüm buluyorsun. Büyücü kartı, her şeyin senin iradene bağlı olarak şekillendiği bir dönemde olduğunu gösteriyor.",
 });
-Object.assign(window.cardMeanings.tr.gelecek, {
+Object.assign(window.cardMeanings.tr.future, {
   "1": "Aşk hayatında yakın gelecekte karizmatik ve çekici bir dönem başlıyor! Kendini özgürce ifade edebileceğin, karşı tarafı etkileyip büyüleyeceğin bir aşk yaşanabilir. Yeni biriyle tanışmak veya mevcut ilişkide taze bir heyecan yakalamak mümkün.",
   "kariyer": "Yakında kariyerinde büyük fırsatlar ve önemli başarılar seni bekliyor. Büyücü kartı, elindeki tüm yetenekleri parlatabileceğin, dikkat çekici bir projeye veya sunuma hazırlanabileceğini gösteriyor.",
   "normal": "Yakın gelecekte çevreni ve hayatındaki gelişmeleri istediğin gibi şekillendirme şansı bulacaksın. Yaratıcılığın ve girişimciliğin ön planda olacak.",
@@ -2291,17 +2291,17 @@ Object.assign(window.cardMeanings.en.future, {
   "career": "Soon, major opportunities and important achievements await in your career. The Magician shows you’ll polish your talents and possibly prepare for an impressive project or presentation.",
   "normal": "In the near future, you’ll have the chance to shape your environment and life events as you wish. Your creativity and initiative will shine.",
 });
-Object.assign(window.cardMeanings.tr.gecmis, {
+Object.assign(window.cardMeanings.tr.past, {
   "2": "Geçmiş aşk hayatında hislerine güvenmeyi öğrenmiş, ilişkilerde sezgilerinle yol almış olabilirsin. Açıkça söylenmeyen duygular, gizli kalan sırlar veya karmaşık bir iletişim dönemi yaşanmış olabilir. Baş Rahibe kartı, ilişkide derinleşmek, iç sesini dinlemek ve sabırlı olmak gerektiğini öğretti.",
   "kariyer": "Kariyerinde geçmişte önemli konularda sezgilerinle hareket ettin. Arka planda kalsan bile olayların gerçek yüzünü sezebildin. Dedikodulardan, işyerindeki gizli gelişmelerden haberin oldu. Bazen sadece gözlemci oldun, ama doğru zamanda harekete geçtin.",
   "normal": "Geçmişte hayatında kendini geri plana çekip iç dünyana dönmeyi tercih ettin. Her şeyin göründüğü gibi olmadığını fark ettin. Sabır, sezgi ve sakinlik sana büyük katkılar sağladı.",
 });
-Object.assign(window.cardMeanings.tr.simdi, {
+Object.assign(window.cardMeanings.tr.present, {
   "2": "Aşk hayatında şu anda sezgilerin çok güçlü. Karşındaki kişinin gerçek niyetini anlayabiliyor, ilişkide sözlerden çok hislere güveniyorsun. Duygusal anlamda bir dönemeçtesin; yüzeyde göremediğin detaylara dikkat etmelisin.",
   "kariyer": "Kariyerinde şu anda olayları perde arkasından izliyor, insanları ve gelişmeleri dikkatlice gözlemliyorsun. Bilgeliğin ve sezgilerinle hareket ediyorsun. Görünmeyeni görme gücüne sahipsin.",
   "normal": "Hayatında şu anda derin bir iç gözlem ve sezgi dönemi yaşıyorsun. Başkalarının niyetlerini kolayca sezebiliyor, olaylara yüzeyden bakmak yerine derinlemesine analiz yapabiliyorsun.",
 });
-Object.assign(window.cardMeanings.tr.gelecek, {
+Object.assign(window.cardMeanings.tr.future, {
   "2": "Yakın gelecekte aşk hayatında saklı duygular açığa çıkabilir. İç sesin seni doğru yola götürecek. Sabırlı olursan, karşındaki kişinin gerçek duygularını öğrenebilirsin. Sırlar aydınlanacak.",
   "kariyer": "Kariyerinde yakın gelecekte önemli bir sırrı ya da arka planda dönen bir gelişmeyi fark edeceksin. Sezgilerinle hareket edersen büyük fırsatlar seni bulacak.",
   "normal": "Yakında içgüdülerinin seni yönlendirdiği bir döneme giriyorsun. Sakin kalıp sezgilerine güvenmen gerekiyor. Bilgeliğin artacak, görünmeyen gerçekleri göreceksin.",
@@ -2322,17 +2322,17 @@ Object.assign(window.cardMeanings.en.future, {
   "career": "Soon, you’ll notice an important secret or behind-the-scenes development at work. Following your intuition will bring major opportunities.",
   "normal": "Soon, you’ll enter a period guided by your instincts. You need to remain calm and trust your intuition. Your wisdom will grow, and you’ll see unseen truths.",
 });
-Object.assign(window.cardMeanings.tr.gecmis, {
+Object.assign(window.cardMeanings.tr.past, {
   "3": "Geçmiş aşk hayatında huzur, şefkat ve verimlilik ön plandaydı. İlişkilerinde duygusal olarak doyumlu, karşılıklı anlayışa dayalı bir dönem yaşamış olabilirsin. İmparatoriçe, geçmişte aşkı sahiplenmeyi, ilgini esirgememeyi ve sevdiklerine değer vermeyi vurgular.",
   "kariyer": "Kariyerinde geçmişte ekip çalışması, üretkenlik ve bereket öne çıktı. Yaratıcılığınla veya çözüm odaklı yaklaşımınla çevrene ilham oldun. İş yerinde destekleyici biri olarak öne çıktın ve başkalarının gelişimine katkı sundun.",
   "normal": "Hayatının geçmişinde sevdiklerine, ailene veya dostlarına karşı koruyucu, fedakar ve şefkatli davrandın. İmparatoriçe kartı, sıcak ilişkiler, huzurlu bir yuva veya bereketli bir dönem geçirdiğini gösterir.",
 });
-Object.assign(window.cardMeanings.tr.simdi, {
+Object.assign(window.cardMeanings.tr.present, {
   "3": "Aşk hayatında şu anda bereketli ve huzurlu bir dönemdesin. İlişkinde şefkat, anlayış ve paylaşım öne çıkıyor. Sevgiye açık, duygularını cömertçe paylaşan, karşı tarafa güven veren bir enerji taşıyorsun.",
   "kariyer": "Kariyerinde şu anda üretkenliğin yüksek. Yaratıcı projelerde yer alabilir, ekip içinde liderlik rolünü üstlenebilirsin. Başkalarına ilham veren, motive eden ve verimli çalışan birisin.",
   "normal": "Hayatının bu döneminde huzur, paylaşım ve bereket ön planda. Sevdiklerinle sıcak ilişkiler kuruyor, çevrene destek oluyorsun. Yeni projeler ya da evle ilgili güzel gelişmeler yaşanabilir.",
 });
-Object.assign(window.cardMeanings.tr.gelecek, {
+Object.assign(window.cardMeanings.tr.future, {
   "3": "Aşk hayatında yakın gelecekte büyük bir şefkat, huzur ve bağlılık dönemi geliyor. Sevgi dolu, besleyici bir ilişkiye adım atabilirsin. Mevcut ilişkinde ise duygular daha derinleşecek.",
   "kariyer": "Yakında iş hayatında bereketli bir dönem seni bekliyor. Yaratıcılığın artacak, projelerinde başarı ve üretkenlik ön plana çıkacak. Başkaları tarafından takdir edilip destek göreceksin.",
   "normal": "Yakın gelecekte huzurlu ve bereketli bir dönem geliyor. Yeni dostluklar, aile bağlarında güçlenme veya evde güzellikler yaşayabilirsin. Hayatında pozitif gelişmeler öne çıkacak.",
@@ -2353,17 +2353,17 @@ Object.assign(window.cardMeanings.en.future, {
   "career": "A prosperous period is approaching in your professional life. Creativity will increase, and you’ll be successful and productive in projects. You’ll be appreciated and supported by others.",
   "normal": "Soon, a peaceful and abundant period is coming. New friendships, strengthened family ties, or pleasant developments at home will stand out. Positive changes are ahead in your life.",
 });
-Object.assign(window.cardMeanings.tr.gecmis, {
+Object.assign(window.cardMeanings.tr.past, {
   "4": "Geçmiş aşk hayatında kontrol, güven ve istikrar arayışın ön plandaydı. Kuralcı veya koruyucu bir tutum takınmış olabilir, ilişkilerde sağlam temeller atmak istemişsin. Bazen fazla dominant ya da duygularını bastıran bir yapın olmuş olabilir.",
   "kariyer": "Kariyerinde geçmişte disiplin, düzen ve liderlik ön plandaydı. Otoritenin önemli olduğu, işlerinde kurallara bağlı, sorumluluklarını aksatmayan biri olarak öne çıktın. Takımda veya işte yönlendirici bir rol üstlendin.",
   "normal": "Hayatının geçmişinde düzen kurmak, hayatı kontrol altına almak ve istikrar sağlamak için büyük çaba sarf ettin. Zaman zaman duygularını geri plana atıp mantığınla hareket ettin. İmparator kartı, olgunlaşma ve sınır çizme dönemine işaret eder.",
 });
-Object.assign(window.cardMeanings.tr.simdi, {
+Object.assign(window.cardMeanings.tr.present, {
   "4": "Aşk hayatında şu an ciddiyet, sadakat ve güven duygusu öne çıkıyor. Sağlam temeller atmak, ilişkinin uzun vadeli olmasını sağlamak için çabalıyorsun. Partnerine karşı koruyucu bir tavır sergileyebilirsin.",
   "kariyer": "Şu anda kariyerinde disiplinli, planlı ve hedef odaklı hareket ediyorsun. İmparator kartı, işte kararlı ve liderlik vasıflarını öne çıkardığın bir dönemi simgeler. Sorumluluklarını ciddiyetle yerine getiriyorsun.",
   "normal": "Hayatının bu döneminde sağlam adımlar atıyor, geleceğini güvence altına almak için çalışıyorsun. Ailen ve sevdiklerin için koruyucu bir rol üstlenebilirsin. Düzen ve otorite senin için çok önemli.",
 });
-Object.assign(window.cardMeanings.tr.gelecek, {
+Object.assign(window.cardMeanings.tr.future, {
   "4": "Yakın gelecekte ilişkinde daha fazla ciddiyet ve istikrar hakim olacak. Güçlü, koruyucu ve lider bir partner ile karşılaşabilirsin. Mevcut ilişkinde ise bağlar daha da sağlamlaşacak.",
   "kariyer": "İş hayatında yakın zamanda yönetici bir pozisyona yükselebilirsin. Sorumlulukların artacak ama başarıya ulaşmak için gereken disipline sahipsin. Kurduğun düzen sayesinde başkalarına örnek olacaksın.",
   "normal": "Gelecekte hayatında istikrar, güven ve düzen hakim olacak. Maddi veya manevi anlamda kendini daha güçlü ve güvende hissedeceksin. Kendi sınırlarını net bir şekilde belirleyip sağlam temeller atacaksın.",
@@ -2384,17 +2384,17 @@ Object.assign(window.cardMeanings.en.future, {
   "career": "Soon, you may be promoted to a managerial position. Responsibilities will increase, but you have the discipline needed for success. The order you establish will set an example for others.",
   "normal": "In the future, stability, security, and order will prevail in your life. You’ll feel stronger and safer, both materially and emotionally. You’ll set clear boundaries and build solid foundations.",
 });
-Object.assign(window.cardMeanings.tr.gecmis, {
+Object.assign(window.cardMeanings.tr.past, {
   "5": "Geçmiş aşk hayatında önemli kararlar, seçimler ve ikilemler ön plandaydı. Kalbinle aklın arasında kalmış, kimi zaman fedakarlıklar yapmak zorunda kalmış olabilirsin. Bazen iki kişi veya iki farklı yol arasında git-gel yaşadın. Aşıklar kartı, geçmişte aşkı seçmenin ve dürüst olmanın ne kadar önemli olduğunu hatırlatır.",
   "kariyer": "Kariyerinde geçmişte önemli bir yol ayrımına geldin. Seçimlerin, ortaklıkların veya iş birliklerinin hayatına etkisi büyük oldu. Zor kararlar vermek, değerlerini sorgulamak ve başkalarıyla uyum içinde çalışmak ön plandaydı.",
   "normal": "Hayatının geçmişinde birden fazla seçenekle karşı karşıya kaldın. Aile, arkadaşlık veya yaşam tarzı konusunda büyük kararlar verdin. Aşıklar kartı, geçmişte yaşanan önemli ayrılıklar veya birleşmeleri simgeler.",
 });
-Object.assign(window.cardMeanings.tr.simdi, {
+Object.assign(window.cardMeanings.tr.present, {
   "5": "Aşk hayatında şu an önemli bir karar aşamasındasın. İlişkinde yol ayrımında olabilir, kalbini dinleyerek en doğru seçimi yapmak zorunda kalabilirsin. Duygusal anlamda dürüst ve net olmanın zamanı.",
   "kariyer": "Kariyerinde şu anda önemli bir tercih yapman gerekebilir. Ortaklık, anlaşma veya yeni bir proje gündeme gelebilir. Doğru insanlarla bir araya gelmek ve iç sesini dinlemek çok önemli.",
   "normal": "Hayatında şu an bir dönüm noktasındasın. Karşına çıkan fırsatlarda seçim yaparken değerlerini ve önceliklerini göz önünde bulundurman gerekiyor.",
 });
-Object.assign(window.cardMeanings.tr.gelecek, {
+Object.assign(window.cardMeanings.tr.future, {
   "5": "Yakın gelecekte aşk hayatında yeni bir karar dönemi geliyor. Karşına iki seçenek çıkabilir ya da mevcut ilişkinde önemli bir dönemeç yaşayabilirsin. İç sesini dinleyerek, aşkı seçmek sana mutluluk getirecek.",
   "kariyer": "İş hayatında yakında önemli bir ortaklık veya seçim seni bekliyor. Bir projede kiminle yola devam edeceğine veya hangi teklifi seçeceğine karar vermen gerekecek. Kararların uzun vadeli etkileri olabilir.",
   "normal": "Gelecekte hayatında önemli bir birleşme, iş birliği ya da dostluk gelişebilir. Seçimlerin hayatına yeni kapılar açacak. Samimi ve dürüst olursan kazanan sen olacaksın.",
@@ -2415,17 +2415,17 @@ Object.assign(window.cardMeanings.en.future, {
   "career": "Soon, an important partnership or choice awaits in your career. You’ll need to decide who to continue with or which offer to accept. Your choices may have long-term effects.",
   "normal": "In the future, an important union, collaboration, or friendship may develop. Your choices will open new doors. If you are sincere and honest, you’ll come out ahead.",
 });
-Object.assign(window.cardMeanings.tr.gecmis, {
+Object.assign(window.cardMeanings.tr.past, {
   "7": "Geçmiş aşk hayatında içine kapanmış, yalnız kalmayı tercih etmiş veya duygularını derinlemesine sorgulamış olabilirsin. Yalnızlık, aşkı anlamak ve kendini keşfetmek için bir fırsat oldu. Ermiş kartı, geçmişte yaşanan duygusal çekilmeleri, kabuğuna çekilmeyi ve kalbini koruma isteğini simgeler.",
   "kariyer": "Kariyerinde geçmişte içsel bir sorgulama ve yalnız çalışma dönemi yaşadın. Kendi başına projeler yürüttün veya kalabalıktan uzak durmayı tercih ettin. Bu süreçte deneyimlerinden ve hatalarından çok şey öğrendin.",
   "normal": "Hayatının geçmişinde kendine dönük, derin düşüncelere dalmış, yalnız kalmayı seçmiş olabilirsin. Kendini anlamak, hayatının anlamını bulmak için büyük bir sorgulama ve iç yolculuk yaşadın.",
 });
-Object.assign(window.cardMeanings.tr.simdi, {
+Object.assign(window.cardMeanings.tr.present, {
   "7": "Aşk hayatında şu an içsel bir sorgulama ve yalnızlık sürecindesin. Kendine ve duygularına dönüp gerçekten ne istediğini anlamaya çalışıyorsun. Geçmiş yaralarını sarmak, kalbini dinlemek için kendine vakit veriyorsun.",
   "kariyer": "Kariyerinde şu an bireysel çalışma, yalnızlık veya kendi başına düşünme dönemi yaşıyorsun. İçsel bilgeliğinle hareket ediyor, kararlarını başkalarının etkisi olmadan alıyorsun. Yalnızken üretebileceğin çok şey var.",
   "normal": "Şu anda hayatında içe dönük bir süreçtesin. Kendinle baş başa kalmak, geçmişini sorgulamak ve hayatının yönünü belirlemek istiyorsun. Sakinlik ve huzur arayışındasın.",
 });
-Object.assign(window.cardMeanings.tr.gelecek, {
+Object.assign(window.cardMeanings.tr.future, {
   "7": "Aşk hayatında yakın gelecekte kendine dönme, yalnız kalma ve ilişkileri derinlemesine değerlendirme dönemi geliyor. Bir ilişkiye başlamadan önce kendini iyice tanımak isteyebilirsin. Bu süreç sonunda aşkı bambaşka bir gözle göreceksin.",
   "kariyer": "Yakında kariyerinde yalnız çalışma ya da bireysel projeler gündeme gelebilir. Kendi yolunu çizmek, başkalarından bağımsız hareket etmek isteyebilirsin. Bilgeliğinle öne çıkacaksın.",
   "normal": "Gelecekte hayatında kendinle baş başa kalacağın, derin bir içsel sorgulama dönemi başlıyor. Sakinlik ve yalnızlık seni geliştirecek. Bu süreçte kendini çok daha iyi anlayacaksın.",
@@ -2446,17 +2446,17 @@ Object.assign(window.cardMeanings.en.future, {
   "career": "Soon, working alone or individual projects may come to the fore. You’ll want to carve your own path and act independently. Your wisdom will make you stand out.",
   "normal": "In the future, you’ll enter a period of being alone and deep inner questioning. Calm and solitude will help you grow. You’ll understand yourself much better during this process.",
 });
-Object.assign(window.cardMeanings.tr.gecmis, {
+Object.assign(window.cardMeanings.tr.past, {
   "6": "Geçmiş aşk hayatında sabır, dayanıklılık ve duygusal olarak güçlü durmak ön plandaydı. Zor zamanlarda sevgiye tutunmayı başardın; ilişkilerde kırılganlığı iyileştirici bir enerjiyle sarıp sarmaladın. Bazen öfkeni kontrol etmek veya ilişkide huzuru korumak için ekstra çaba gösterdin.",
   "kariyer": "Kariyerinde geçmişte büyük bir direnç gösterdin. Zorluklar karşısında pes etmedin, güçlüklerin üstesinden geldin. Sabırla çalıştın ve her durumda ayakta kalmayı bildin. Güç kartı, eski işlerinde mücadeleci bir ruha sahip olduğunu anlatır.",
   "normal": "Hayatının geçmişinde önemli sınavlardan geçtin. Sabır ve içsel güç geliştirdin, kendini ve başkalarını zor zamanlarda destekledin. Güç kartı, yaşanan zorluklara rağmen dimdik ayakta kalmayı simgeler.",
 });
-Object.assign(window.cardMeanings.tr.simdi, {
+Object.assign(window.cardMeanings.tr.present, {
   "6": "Aşk hayatında şu anda dayanıklılık ve sabır çok önemli. İlişkide anlayışlı, sakin ve güçlü bir enerjiye sahipsin. Sevdiğin kişiye güven veriyorsun. Zor bir süreçte olsan bile sevginle iyileştirici bir etki bırakıyorsun.",
   "kariyer": "Kariyerinde şu an mücadele gerektiren bir dönemden geçiyorsun. Zorluklara göğüs germek, strese dirençli olmak ve ekipte dengeyi korumak önemli. Sakinliğin ve iradenle herkesin takdirini topluyorsun.",
   "normal": "Hayatının bu döneminde güç, sabır ve soğukkanlılık ön planda. Çevrende yaşanan krizlerde herkes senden destek bekliyor. İçsel dengenle olaylara çözüm getirebilirsin.",
 });
-Object.assign(window.cardMeanings.tr.gelecek, {
+Object.assign(window.cardMeanings.tr.future, {
   "6": "Aşk hayatında yakında büyük bir güç sınavı yaşayabilirsin. Birlikte her türlü sorunun üstesinden gelebileceğin, birbirinize tam anlamıyla destek olacağınız bir dönem geliyor. Sabır ve anlayış seni gerçek aşka götürecek.",
   "kariyer": "Yakında iş hayatında seni zorlayacak bir sınavla karşılaşabilirsin. Ama Güç kartı, üstesinden gelecek sabır ve dayanıklılığa sahip olduğunu müjdeliyor. Herkesin güvenini kazanacaksın.",
   "normal": "Yakın gelecekte önemli bir güç gösterisi yapman gerekebilir. Sınavlardan başarıyla geçeceksin. Kendine olan güvenin ve pozitif enerjin çevrendekilere de örnek olacak.",
