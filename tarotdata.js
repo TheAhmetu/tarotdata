@@ -132,13 +132,13 @@ window.cardMeanings = [
     }
   },
   // ... diğer kartlar aynı şekilde devam edecek (İmparatoriçe, İmparator, Aşıklar, Güç, Ermiş) ...
-];
+
 // 3: İmparatoriçe / The Empress
 {
   tr: {
     normal: {
       past: "Geçmişte sevgi dolu, besleyici bir ortamın parçası oldun. Yaratıcılığın ve üretkenliğin ön plandaydı; sevdiklerinle güçlü bağlar kurdun.",
-      present; "Şu anda hayatında huzur ve bolluk hakim. Etrafına sıcaklık ve şefkat saçıyor, çevrendekileri destekliyorsun.",
+      present: "Şu anda hayatında huzur ve bolluk hakim. Etrafına sıcaklık ve şefkat saçıyor, çevrendekileri destekliyorsun.",
       future: "Yakında bereketli ve verimli bir döneme giriyorsun. Hayatında yeni projeler, ilişkiler ya da ailevi mutluluklar gündeme gelebilir."
     },
     ask: {
@@ -318,6 +318,8 @@ window.cardMeanings = [
     }
   }
 }
+
+];
 // Her kombinasyon için özgün aşk ve kariyer özetleri (TR & EN)
 window.comboSummaryTexts = {
   tr: {
